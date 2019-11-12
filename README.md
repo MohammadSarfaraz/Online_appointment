@@ -6,9 +6,13 @@ Here are some example given below--
 ![screenshot](https://github.com/MohammadSarfaraz/Online_appointment/blob/master/Screenshot%20from%202019-11-12%2015-40-52.png)
 
 ![Markdown logo](https://github.com/MohammadSarfaraz/Online_appointment/blob/master/Screenshot%20from%202019-11-12%2015-52-32.png)
-Steps-->
+![rasa](https://miro.medium.com/max/2400/1*Bs0JvC6bmiwrC7we49-tjw.png)
+
+
+Steps to install rasa x-->
 
 1.pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
+
 
 2.rasa init --no-prompt
 
