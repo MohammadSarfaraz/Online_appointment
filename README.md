@@ -7,7 +7,7 @@ Here are some example given below--
 
 ![Markdown logo](https://github.com/MohammadSarfaraz/Online_appointment/blob/master/Screenshot%20from%202019-11-12%2015-52-32.png)
 
-###Steps to install rasa x-->
+## Steps to install rasa x-->
 
 ![rasa](https://d2z6c3c3r6k4bx.cloudfront.net/uploads/event/logo/1077848/2ed953fb073b5e91df6a2e4e10b20578.png)
 
