@@ -9,7 +9,9 @@ Here are some example given below--
 Steps-->
 
 1.pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
-1.rasa init --no-prompt
-     The above command rasa init will create all necessary files which are required for creating rasa chatbot like domain.yml,credentials.yml,data/stories.md,data/nlu.md.
+
+2.rasa init --no-prompt
+
+The above command rasa init will create all necessary files which are required for creating rasa chatbot like domain.yml,credentials.yml,data/stories.md,data/nlu.md.
      
- []
+ ![Markdown logo](https://github.com/MohammadSarfaraz/Online_appointment/blob/master/Screenshot%20from%202019-11-12%2016-11-42.png)
