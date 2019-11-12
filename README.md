@@ -1,2 +1,2 @@
 # Online_appointment using Rasa X
-[Traversy Media](https://rasa.com/docs/rasa/user-guide/installation/)
+`<p>Online appointment using [rasa x](https://rasa.com/docs/rasa/user-guide/installation/)</p>`
