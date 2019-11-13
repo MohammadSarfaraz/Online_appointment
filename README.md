@@ -12,7 +12,7 @@ Rasa Stack is a set of open source machine learning tools for developers to crea
 
 ## details of this project
 
-Online appointment using [RASA X](https://rasa.com/docs/rasa/user-guide/installation/) to take an appointment with the consultant doctor and take feedback from there meeting.I am using  rasa as a platform to create dialogue management and spacy for training the module.This project help the people to fixed an appointment online using rasa
+Online appointment using [RASA X](https://rasa.com/docs/rasa/user-guide/installation/) to take an appointment with the consultant doctor and take feedback from there meeting.I am using  rasa as a platform to create dialogue management and spacy for training the module.This project help the people to fixed an appointment online using chatbot which is easier and convenient for everyone who want to fixed an appointment with their consultant doctor. 
 
 * I used front end as rasa x
 * For backend i used rasa nlu and core
