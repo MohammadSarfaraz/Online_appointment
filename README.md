@@ -9,11 +9,13 @@ Rasa Stack is a set of open source machine learning tools for developers to crea
 ## for more detail go to link below
 [RASA X](https://rasa.com/docs/rasa/user-guide/installation/)
 
-Online appointment using [RASA X](https://rasa.com/docs/rasa/user-guide/installation/) to take an appointment with the consultant doctor and take feedback from there meeting.I am using  rasa as a platform to create dialogue management and spacy for training the module.This project help the people to fixed an appointment online using rasa
 
 ## details of this project
-* I used front end as html and css to build website 
-* For backend i used rasa 
+
+Online appointment using [RASA X](https://rasa.com/docs/rasa/user-guide/installation/) to take an appointment with the consultant doctor and take feedback from there meeting.I am using  rasa as a platform to create dialogue management and spacy for training the module.This project help the people to fixed an appointment online using rasa
+
+* I used front end as rasa x
+* For backend i used rasa nlu and core
 
 Here are some example given below--
 
@@ -21,8 +23,8 @@ Here are some example given below--
 
 ![Markdown logo](https://github.com/MohammadSarfaraz/Online_appointment/blob/master/Screenshot%20from%202019-11-12%2015-52-32.png)
 
-## for more details
-my email [MY Email](mohammadsarfaraz978@gmail.com)
+
+
 
 
 
