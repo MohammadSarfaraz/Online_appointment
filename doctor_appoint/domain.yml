@@ -1,0 +1,216 @@
+intents:
+- Kolkata
+- greet
+- OnlineAppointment
+- WithinNext7Days
+- No
+- MohdSarfarazKhan
+- FollowupVisit
+- Female
+- information
+- GeneralSurgery
+- Male
+- Lucknow
+- Tomorrow
+- Orthopedics
+- JustinaPetraityte
+- Yes
+- Dermatalogy
+- FirstVisit
+- Today
+- Delhi
+- NotSure
+- WithinNext14Days
+- Agra
+- RohitSharma
+- JamesSmith
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- location
+- YesOnTime
+- Nope
+- feedback_rate
+- Morethan1hour
+- FeedBack
+- Morethan15min
+- Skip
+- Ontime
+- Morethan30min
+- other_info
+- feedback_info
+entities:
+- information
+- location
+- name
+- number
+templates:
+  utter_apt_option_HowMayI:
+  - buttons:
+    - payload: /OnlineAppointment
+      title: Online Appointment
+    - payload: /FeedBack
+      title: FeedBack
+    text: How May I Help You
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_city_Whichareaarey:
+  - buttons:
+    - payload: /Delhi
+      title: Delhi
+    - payload: /Lucknow
+      title: Lucknow
+    - payload: /Kolkata
+      title: Kolkata
+    - payload: /Agra
+      title: Agra
+    text: Which area are you looking for the Hospital in?
+  utter_dept_Herearethedoc:
+  - text: Here are the doctors in that department 👇
+  utter_dept_Youarelooking:
+  - buttons:
+    - payload: /Dermatalogy
+      title: Dermatalogy
+    - payload: /Orthopedics
+      title: Orthopedics
+    - payload: /GeneralSurgery
+      title: General Surgery
+    - payload: /NotSure
+      title: Not Sure
+    text: You are looking for a doctor in which department?
+  utter_dept_doct_Pleasesele:
+  - buttons:
+    - payload: /JustinaPetraityte
+      title: Justina Petraityte
+    - payload: /MohdSarfarazKhan
+      title: Mohd Sarfaraz Khan
+    - payload: /JamesSmith
+      title: James Smith
+    - payload: /RohitSharma
+      title: Rohit Sharma
+    text: Please select the doctor you would like to 😊
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_feedback_Wedloveto:
+  - text: We'd love to know about your Medical Health Care experience
+  utter_feedback_info_Canyou:
+  - text: Can you please share your email address so that we can share your feedback
+      with the doctor too.
+  utter_feedback_info_Wouldy:
+  - text: Would you recommend Medi Health Care to your friends and family?
+  utter_feedback_option_Youa:
+  - buttons:
+    - payload: /YesOnTime
+      title: Yes On Time
+    - payload: /Nope
+      title: Nope
+    text: You are able to meet the doctor?
+  utter_feedback_rate_Rateyo:
+  - text: Rate your appointment experience with the clinic between 1 to 10?
+  utter_feedback_time_Howmuc:
+  - buttons:
+    - payload: /Ontime
+      title: On time
+    - payload: /Morethan15min
+      title: More than 15 min
+    - payload: /Morethan30min
+      title: More than 30 min
+    - payload: /Morethan1hour
+      title: More than 1 hour
+    text: How much time did you have to wait at the doctor’s place?
+  utter_goodbye:
+  - text: Bye
+  utter_goodbye_Haveagreat:
+  - text: Have a great day
+  utter_goodbye_Youwillsoon:
+  - text: You will soon hear back from our team
+  utter_greet:
+  - text: Hey! How are you?
+  utter_greet_HiWelcometo:
+  - text: Hi! Welcome to Medical health care .
+  utter_greet_Requesttosche:
+  - text: Request to schedule an appointment with our expert consultants.
+  utter_happy:
+  - text: Great carry on!
+  utter_information_Andwhat:
+  - text: And what's your date of birth?
+  utter_information_Finally:
+  - text: Finally, your email address
+  utter_information_Pleasese:
+  - buttons:
+    - payload: /Male
+      title: Male
+    - payload: /Female
+      title: Female
+    text: Please select your gender 👇
+  utter_information_Whatisy:
+  - text: What is your full name?
+  utter_information_Yourmobi:
+  - text: Your mobile number?
+  utter_option_Areyoualread:
+  - buttons:
+    - payload: /Yes
+      title: Yes
+    - payload: /No
+      title: No
+    text: Are you already registered with us?
+  utter_other_info_Doyouhav:
+  - text: Do you have any comments/messages about the appointment? Please give them
+      here 👇
+  utter_other_info_Youcansk:
+  - buttons:
+    - payload: /Skip
+      title: Skip
+    text: You can skip this by clicking on Skip button
+  utter_time_Whendoyoupref:
+  - buttons:
+    - payload: /Today
+      title: Today
+    - payload: /Tomorrow
+      title: Tomorrow
+    - payload: /WithinNext7Days
+      title: Within Next 7 Days
+    - payload: /WithinNext14Days
+      title: Within Next 14 Days
+    text: When do you prefer to meet the doctor?
+  utter_visit_Areyouvisitin:
+  - buttons:
+    - payload: /FirstVisit
+      title: First Visit
+    - payload: /FollowupVisit
+      title: Follow-up-Visit
+    text: Are you visiting for the first time, or is it a follow-up visit?
+actions:
+- utter_apt_option_HowMayI
+- utter_cheer_up
+- utter_city_Whichareaarey
+- utter_dept_Herearethedoc
+- utter_dept_Youarelooking
+- utter_dept_doct_Pleasesele
+- utter_did_that_help
+- utter_feedback_Wedloveto
+- utter_feedback_info_Canyou
+- utter_feedback_info_Wouldy
+- utter_feedback_option_Youa
+- utter_feedback_rate_Rateyo
+- utter_feedback_time_Howmuc
+- utter_goodbye
+- utter_goodbye_Haveagreat
+- utter_goodbye_Youwillsoon
+- utter_greet
+- utter_greet_HiWelcometo
+- utter_greet_Requesttosche
+- utter_happy
+- utter_information_Andwhat
+- utter_information_Finally
+- utter_information_Pleasese
+- utter_information_Whatisy
+- utter_information_Yourmobi
+- utter_option_Areyoualread
+- utter_other_info_Doyouhav
+- utter_other_info_Youcansk
+- utter_time_Whendoyoupref
+- utter_visit_Areyouvisitin
