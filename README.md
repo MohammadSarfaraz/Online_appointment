@@ -27,7 +27,7 @@ To install Rasa X-:
 pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
 * For more detail here is the link [rasa Installation for local mode](https://rasa.com/docs/rasa-x/installation-and-setup/install/local-mode)
 
-Steps to start project after rasa installation for local mode-:
+Steps to start project after rasa installation for local mode done above-:
 1. Download Online_appointment-master file 
 2. Open doctor_appoint
 3. Open cmd and writing command below-:
