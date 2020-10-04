@@ -27,12 +27,11 @@ To install Rasa X-:
 pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
 
 
-Steps -:
+Steps to start project -:
 1. Download Online_appointment-master file 
 2. Open doctor_appoint
 3. Open cmd and writing command below-:
-* From your Rasa assistant's project directory, start it with
-rasa x
+* rasa x
 
 Here are some example given below--
 
