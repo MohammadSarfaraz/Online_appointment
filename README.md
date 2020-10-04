@@ -17,6 +17,23 @@ Online appointment using [RASA X](https://rasa.com/docs/rasa/user-guide/installa
 * I used front end as rasa x
 * For backend i used rasa nlu and core
 
+Introduction to Rasa Open Source
+Rasa is an open source machine learning framework for automated text and voice-based conversations. Understand messages, hold conversations, and connect to messaging channels and APIs.
+
+Quick Install#
+Install Rasa Open Source with a quick pip command.
+
+To install Rasa X-:
+pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
+
+
+Steps -:
+1. Download Online_appointment-master file 
+2. Open doctor_appoint
+3. Open cmd and writing command below-:
+* From your Rasa assistant's project directory, start it with
+rasa x
+
 Here are some example given below--
 
 ![screenshot](https://github.com/MohammadSarfaraz/Online_appointment/blob/master/Screenshot%20from%202019-11-12%2015-40-52.png)
