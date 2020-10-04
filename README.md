@@ -21,7 +21,6 @@ Introduction to Rasa Open Source
 Rasa is an open source machine learning framework for automated text and voice-based conversations. Understand messages, hold conversations, and connect to messaging channels and APIs.
 
 Quick Install#
-Install Rasa Open Source with a quick pip command.
 
 To install Rasa X-:
 pip3 install rasa-x --extra-index-url https://pypi.rasa.com/simple
